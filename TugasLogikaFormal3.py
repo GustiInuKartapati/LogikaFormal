@@ -4,7 +4,7 @@ from itertools import combinations
 def ramsey_theorem(P, M, B):
     solver = Solver()
 
-    # Mendefinisikan kamus variabel boolean untuk tepi-tepi graf Kp
+    # Mendefinisikan variabel boolean untuk sisi-sisi graf Kp
     edges = {}
     for i in range(P):
         for j in range(i + 1, P):
